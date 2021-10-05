@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    height: 100%;
+    color: floralwhite;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#3f87a6, #3f87, #f69d3c);
+    width: 100%;
+    display: table;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    text-align: center;
+}
+
+.parallax-inner {
+    position: relative;
+    text-align: center;
+    display: table-cell;
+}
+
+.menu {
+    font-family: cursive;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    margin-top: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+.links {
+    color: darkred;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: cursive;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover {
+    background-color: floralwhite;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#contact {
+    background-color: darkred;
+    color: floralwhite;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact1 h3 {
+    display: inline;
+}
+
+.contact1 a {
+    color: white;
+    text-shadow: none;
+}
