@@ -1,62 +1,94 @@
 <html>
 
 <head>
-    <title>C57-Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bonbon&display=swap" rel="stylesheet">
+    <title>My Favorite 1</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="main.js"></script>
 </head>
 
 <body>
     <center>
         <ul class="menu">
-            <li class="links"><a href="#welcome">Home</a></li>
-            <li class="links"><a href="#videos">Videos</a></li>
-            <li class="links"><a href="#work">Work</a></li>
-            <li class="links"><a href="#writings">Writings</a></li>
+            <li class="links"><a href="#intro">Home</a></li>
+            <li class="links"><a href="#about">About</a></li>
+            <li class="links"><a href="#recipes">Recipes</a></li>
+            <li class="links"><a href="#tips">Tips</a></li>
+            <li class="links"><a href="#inspire">My Inspiration</a></li>
             <li class="links"><a href="#contact">Contact</a></li>
         </ul>
     </center>
-    <section id="welcome" class="parallax-container">
+    <br>
+    <br>
+    <br>
+    <section id="intro" class="parallax-container">
+        <h1 id="header1">Baking and Cooking</h1>
+        <img id="arrayBake" src="https://images.unsplash.com/photo-1562022791-b74585b094d8?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMTgwNTQzMA&ixlib=rb-1.2.1&q=85">
+        <div>
+            <button type="button" onclick="nextslide()">Next Cake</button>
+        </div>
         <div class="parallax-inner">
-            <br>
-            <br>
-            <br>
-            <img src="https://i.guim.co.uk/img/media/78d8b6633929f6f931bf16f00057c3817c82ec76/0_170_5098_3059/master/5098.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=18b1fec6664329f8a67d7dd7d5c92a98" class="profile">
-            <h1>I am <br><span id="name"><em>Tim Berners Lee</em></span></h1>
-            <h2>I am the founder of the World Wide Wed(WWW)</h2>
+            <h3>Let me tell you about my baking and cooking!</h3>
         </div>
     </section>
-    <section id="bio">
-        <h1>Hello!</h1>
-        <p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory. He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford. In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.<br /><br />In 1994 Berners-Lee founded the World Wide Web Consortium (W3C) at the Laboratory of Computer Science (LCS) at the Massachusetts Institute of Technology in Boston. It was made up of companies that wanted to work together to create Web standards and also improve the Web. It was quickly agreed that the technology should be free of royalties and patents. Berners-Lee has served as director of this W3C since it was founded.In 1995 Microsoft produced the first version of Internet Explorer and this commercial browser created enormous growth in websites and web users. The Web was first used for e-commerce in 1997.</p>
+    <section id="about">
+        <h1 id="aboutbakingh1">About My Baking</h1>
+        <p id="aboutbaking">Have you ever baked or cooked before? It's fun right? If you haven't baked before then you're in for a treat! Get it? <em>treat?</em> Oh well, let's get started. I have baked many things, such as cakes. I've done chocolate, vanilla, and strawberry. I have baked cupcakes with the flavors of chocolate, vanilla, strawberry, and devil's food cake. I have also made chocolate chip cookies and crossiants. I can make ice cream and have made vanilla cakes from scratch. I also mix the cakes such as vanilla and strawberry. I also make a lot of banana bread. I really want to make red velvet, mango cake, and rose cake one day. I have cooked omelet, paneer chili, and scrambled eggs. I have also made dal rice. Check out the dessert I really want to make: <a href="https://www.simplyrecipes.com/recipes/red_velvet_cupcakes_with_cream_cheese_frosting/" target="_blank">Red Velvet Cupcakes</a>!</p>
     </section>
-    <section id="videos">
-        <h1>VIDEOS</h1>
-        <iframe width="900" height="500" src="https://www.youtube.com/embed/3HIlwseTHxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section id="inspire">
+        <h1>My Inspiration</h1>
+        <p>What's my inspiration to cook? I just have fun when I am creating food, also I love to eat good food! From cakes to curries, I want to learn to cook them all and when I'm done, I'll eat them along with my family! I also love to watch cooking and baking shows, I want to be able to bake like them!For example, MasterChef India makes cool things and gives lots of tips and tricks for cooking and baking. Nailed It! also gives some tips and tells you how to make the challenges, the contestants do not do so good, but I learn from their mistakes.</p>
+        <a href="https://en.wikipedia.org/wiki/MasterChef_India" target="_blank" id="inspire_pic"><img src="masterchef.jfif" alt="MasterChef Logo"></a>
+        <a href="https://en.wikipedia.org/wiki/Nailed_It!" target="_blank" id="inspire_pic"><img src="nailed%20it.jpg" alt="Nailed It! Logo"></a>
     </section>
-    <section id="work">
-        <h1>WORK</h1>
-        <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research" frameborder="0"></iframe>
+    <section id="recipes">
+        <p>Below are some good recipes to try! They come with the link too!</p>
+        <ol>
+            <li>
+                <h2>Banana Bread - Simply Recipes</h2>
+                <a target="_blank" href="https://www.simplyrecipes.com/recipes/banana_bread/">Simply Recipes Banana Bread</a>
+            </li>
+            <li>
+                <h2>Brownie Cupcakes - Betty Crocker</h2>
+                <a target="_blank" href="https://www.bettycrocker.com/products/betty-crocker-brownies-and-dessert-bars/fudge-brownie">Fudge Brownies</a>
+            </li>
+            <li>
+                <h2>Strawberry Cupcakes - Pillsbury</h2>
+                <a target="_blank" href="https://www.pillsburybaking.com/products/moist-supreme/strawberry">Strawberry Cake</a>
+            </li>
+            <li>
+                <h2>Vanilla Strawberry Cake - Pillsbury + Betty Crocker</h2>
+                <a target="_blank" href="https://www.pillsburybaking.com/products/traditional-cake/vanilla">Pillsbury Vanilla Cake</a> + <a target="_blank" href="https://www.bettycrocker.com/products/betty-crocker-baking-and-cake-mixes/strawberry">Betty Crocker Strawberry Cake</a>
+            </li>
+            <li>
+                <h2>Devil's Food Cupcakes - Betty Crocker</h2>
+                <a target="_blank" href="https://www.bettycrocker.com/products/betty-crocker-baking-and-cake-mixes/devils-food">Devil's Food Cake</a>
+            </li>
+        </ol>
     </section>
-    <section id="writings">
-        <h1>WRITINGS</h1>
-        <a class="article" href="https://www.theguardian.com/technology/2019/mar/12/tim-berners-lee-on-30-years-of-the-web-if-we-dream-a-little-we-can-get-the-web-we-want" target="_blank">Tim Berners-Lee on 30 years of the world wide web: 'We can get the web we want'</a>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+    <section id="tips">
+        <p>I've had some mess-ups here and there. Some of them were messy, so if you don't want to be cleaning a whole lotta butter, read these tips.</p>
+        <ol>
+            <li>Be careful when you open the bag of flour</li>
+            <li>Don't put the butter in the microwave for a long time. Put it in for a few seconds at a time(30 sec), otherwise it will burst everywhere.</li>
+            <li>Mix carefully, it might spill.</li>
+            <li>Be careful with the blender.</li>
+            <li>Melt and put in the butter last or mix it in right after you pour it. Once, I put it in and did not mix it, and it hardened, so I couldn't mix it.(If it does happen, try to put the bowl on the stovetop(if you can!)for a few seconds.)</li>
+            <li>Don't put metal stuff in the microwave! It's very dangerous. No metal spoons, forks, bowls, knives, etc.</li>
+            <li>Careful with knives when chopping up stuff.</li>
+            <li>Add your own spin to recipes. Bananas on top of the banana bread, maybe some walnuts. Sugar on the cupcakes. Something like that.</li>
+            <li>Always double check the temprature and the amount of time it's supposed to be in before putting the food in.</li>
+        </ol>
     </section>
-    <section id="contact">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d482634.69493377657!2d72.60096864293729!3d19.08203904026789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sus!4v1633404316506!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <div class="contact1">
-            <a href="mailto:someone@example.com?Subject=Hello"><i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>email@blank.com</h3></a>
-            <br>
-            <a href="#"><i class="fa fa-instagram"></i>&nbsp;&nbsp;<h3>intsagramID</h3></a>
-        </div>
+    <section id=contact>
+        <a id="mail" href="mailto:someone@example.com?Subject=Hello">
+            <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>mygmailid@gmail.com</h3>
+        </a>
+        <a id="insta" href="#">
+            <i class="fa fa-instagram"></i>&nbsp;&nbsp;<h3>myimstagramid</h3>
+        </a>
     </section>
 </body>
 
